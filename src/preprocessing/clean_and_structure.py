@@ -12,7 +12,25 @@ def normalize_text(text:str) -> str:
     #Removing multiple spaces/tabs
     text = re.sub(r"[ \t]{2,}"," ",text)
     return text.strip()
-    
+
+
+'''Function to remove junk lines like page number and all'''
+RE_JUST_NUMBER = re.compile(r"^\s*\d{1,4}\s*$")
+RE_PAGE_WORD = re.compile(r"^\s*page\s*$", re.I)
+def remove_junk_lines(text:str) -> str:
+    lines = [ln.strip() for ln in text.splitlines()]
+    kept = []
+    for ln in lines:
+        if not ln:
+            continue
+        if RE_JUST_NUMBER.match(ln):
+            continue
+        if RE_PAGE_WORD.match(ln):
+            continue
+        kept.append(ln)
+
+    return "\n".join(kept).strip()
+
 '''Function to remove useless pages like contents, few words etc'''
 def is_useless_pages(text:str)->bool:
     #If not text
@@ -26,6 +44,7 @@ def is_useless_pages(text:str)->bool:
     if alpha_chars / len(text) < 0.3:
         return True
     return False
+
 '''Function to remove TOC and other things'''
 def is_toc_page(text: str) -> bool:
     t = text.lower()
@@ -33,7 +52,6 @@ def is_toc_page(text: str) -> bool:
     # direct TOC markers
     if "contents" in t or "table of contents" in t:
         return True
-
     # dotted leader style lines are common in TOC
     dotted_lines = sum(1 for line in text.splitlines() if "...." in line)
     if dotted_lines >= 3:
@@ -78,6 +96,7 @@ def main():
     #Normslizing text
     for p in pages:
         p["text"] = normalize_text(p.get("text",""))
+        p["text"] = remove_junk_lines(p["text"])
 
     #Removing useless pages
     cleaned_pages = []
