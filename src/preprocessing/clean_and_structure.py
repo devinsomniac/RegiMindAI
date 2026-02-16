@@ -15,10 +15,14 @@ def normalize_text(text:str) -> str:
 
 
 '''Function to remove junk lines like page number and all'''
+#Matching all the numbers with optional spaces
 RE_JUST_NUMBER = re.compile(r"^\s*\d{1,4}\s*$")
+#Matching all the words matching "page" or "Pages"
 RE_PAGE_WORD = re.compile(r"^\s*page\s*$", re.I)
 def remove_junk_lines(text:str) -> str:
+    #making an array for lines in text
     lines = [ln.strip() for ln in text.splitlines()]
+    #Array to keep clean lines
     kept = []
     for ln in lines:
         if not ln:
