@@ -1,0 +1,15 @@
+# Virtual environment
+myvenv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local test scripts
+test.py
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
