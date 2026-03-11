@@ -73,8 +73,8 @@ def main():
         json.dump(pages,f,ensure_ascii=False,indent=2)
 
     
-    print(f"✅ Extracted {len(pages)} pages from {len(set(p['source_file'] for p in pages))} PDFs")
-    print(f"📄 Saved to: {out_path}")
+    print(f"Extracted {len(pages)} pages from {len(set(p['source_file'] for p in pages))} PDFs")
+    print(f"Saved to: {out_path}")
 
 
 if __name__ == "__main__":
