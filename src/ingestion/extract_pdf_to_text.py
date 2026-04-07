@@ -66,6 +66,9 @@ def extract_pages_from_pdf(pdf_path:Path)->list[dict]:
 
     try:
         for page_index in tqdm(range(len(doc)), desc=f"Extracting {pdf_path.name}",unit="page"):
+            #skipping the page 1 as page 1 always carries the cover page
+            if page_index == 0:
+                continue
             #Getting each page
             page = doc.load_page(page_index)
             #Extracting text

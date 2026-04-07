@@ -85,7 +85,7 @@ def extract_calender(xlsx_path:Path)->list[dict]:
     for _,row in calender_dataframe.iterrows():
         records.append({
             "policy_name" : "Assessment calender",
-            "source" : xlsx_path.name,
+            "policy_source" : xlsx_path.name,
             "module_code" : str(row['Module Code']).strip(),
             "module_name" : str(row['Module']).strip(),
             "assessment_type"  : str(row["Assessment Type"]).strip(),
