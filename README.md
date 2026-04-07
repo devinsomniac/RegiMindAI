@@ -1,20 +1,29 @@
 # RegiMind AI 🎓
 
-> An end-to-end NLP system for querying academic regulations — built from a raw policy PDF to a production-ready RAG pipeline.
+> A comparative study of retrieval methods for domain-specific RAG question answering — built on Cardiff University's academic policy documents.
 
-![Status](https://img.shields.io/badge/status-Phase%201%20Complete-brightgreen)
+![Status](https://img.shields.io/badge/status-Phase%204%20In%20Progress-yellow)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-
+![QA Pairs](https://img.shields.io/badge/gold%20QA%20pairs-145-orange)
+![Chunks](https://img.shields.io/badge/corpus%20chunks-716-purple)
 
 ---
 
 ## Overview
 
-RegiMind AI is a production-grade question-answering system designed to help students navigate complex academic regulations. Instead of searching through dense policy handbooks manually, students can ask natural language questions and receive grounded, cited answers.
+RegiMind AI is a research-driven question-answering system that helps students navigate complex academic regulations. Instead of searching through multiple dense policy PDFs, students can ask natural language questions and receive grounded, cited answers.
 
-The system is built end-to-end — from raw PDF ingestion through transformer-based retrieval, reranking, and RAG answer generation — with a focus on faithfulness, calibration, and production readiness.
+The core research contribution is a **systematic comparison of three retrieval strategies** — sparse (BM25), dense (sentence-transformers + FAISS), and hybrid (Reciprocal Rank Fusion) — evaluated on a manually curated gold QA dataset using both IR metrics and RAG faithfulness measures.
+
+This project was developed as part of **CMT227 — Advanced Topics in NLP** at Cardiff University's School of Computer Science and Informatics.
 
 > ⚠️ **Disclaimer:** This system is not official and does not constitute legal or academic advice. Always verify with your institution directly.
+
+---
+
+## Research Question
+
+> Which retrieval strategy — sparse (BM25), dense (bi-encoder), or hybrid — produces the most accurate and faithful answers when the knowledge source is restricted to Cardiff University's academic regulations?
 
 ---
 
@@ -22,113 +31,101 @@ The system is built end-to-end — from raw PDF ingestion through transformer-ba
 
 | Phase | Title | Status |
 |-------|-------|--------|
-| 0 | Project & Product Setup | ✅ Complete |
 | 1 | Data Ingestion | ✅ Complete |
-| 2 | Text Cleaning & Structuring | 🔜 Up next |
-| 3 | Corpus EDA | ⬜ Planned |
-| 4 | Gold QA Dataset Creation | ⬜ Planned |
-| 5 | Baseline Retrieval (BM25) | ⬜ Planned |
-| 6 | Transformer Embeddings | ⬜ Planned |
-| 7 | Train Bi-Encoder Retriever | ⬜ Planned |
-| 8 | Train Cross-Encoder Reranker | ⬜ Planned |
-| 9 | Query Understanding Models | ⬜ Planned |
-| 10 | RAG Answer Generation | ⬜ Planned |
-| 11 | Faithfulness & Calibration | ⬜ Planned |
-| 12 | Evaluation Suite | ⬜ Planned |
-| 13 | Backend API | ⬜ Planned |
-| 14 | Frontend | ⬜ Planned |
-| 15 | Deployment & Ops | ⬜ Planned |
-| 16 | Documentation & Branding | ⬜ Planned |
+| 2 | Text Cleaning & Preprocessing | ✅ Complete |
+| 3 | Gold QA Dataset Construction | ✅ Complete |
+| 4a | QA-to-Chunk Relevance Mapping (Qrels) | 🔄 In Progress |
+| 4b | BM25 Baseline Retrieval | ⬜ Next |
+| 4c | Dense Retrieval (Sentence-Transformers + FAISS) | ⬜ Planned |
+| 4d | Hybrid Retrieval (Reciprocal Rank Fusion) | ⬜ Planned |
+| 4e | IR Metric Evaluation (Recall@k, MRR, nDCG) | ⬜ Planned |
+| 5 | RAG Pipeline (LlamaIndex) + RAGAS Evaluation | ⬜ Planned |
+| 6 | Report Writing (ACL Format) | ⬜ Planned |
 
 ---
 
-## Architecture (Planned)
+## Architecture
 
 ```
-Raw PDF
+Source Documents (6 PDFs + 1 xlsx)
    │
    ▼
-[Phase 1] PDF Ingestion → handbook_pages.json
+[Phase 1] Ingestion ──────────────► all_records.json (413 records)
    │
    ▼
-[Phase 2] Text Cleaning → handbook_sections.jsonl
-   │
-   ├──▶ [Phase 3] EDA & Chunking Strategy
-   │
-   ├──▶ [Phase 4] Gold QA Dataset
+[Phase 2] Cleaning & Chunking ───► cleaned_pages.json → chunks.json (716 chunks)
    │
    ▼
-[Phase 5] BM25 Baseline Retriever
+[Phase 3] Gold QA Dataset ───────► qa_pairs.json (145 QA pairs, 5 clusters)
    │
    ▼
-[Phase 6] Dense Retriever (Transformer Embeddings)
+[Phase 4] Retrieval Experiments
+   ├── BM25 (sparse)
+   ├── Sentence-Transformers + FAISS (dense)
+   └── Reciprocal Rank Fusion (hybrid)
    │
    ▼
-[Phase 7] Fine-tuned Bi-Encoder (Training)
+[Phase 4] IR Evaluation ─────────► Recall@k, MRR, nDCG
    │
    ▼
-[Phase 8] Cross-Encoder Reranker (Training)
+[Phase 5] RAG Generation ────────► LlamaIndex + LLM
    │
    ▼
-[Phase 9] Query Understanding (Intent + Rewriting)
-   │
-   ▼
-[Phase 10] RAG Answer Generation (LLM + Citations)
-   │
-   ▼
-[Phase 11] Faithfulness & Hallucination Control
-   │
-   ▼
-[Phase 13] FastAPI Backend
-   │
-   ▼
-[Phase 14] Next.js Frontend
-   │
-   ▼
-[Phase 15] Deployed System
+[Phase 5] Faithfulness Eval ─────► RAGAS (faithfulness, answer relevancy,
+                                    context precision, context recall)
 ```
 
 ---
 
-## Phase 1 — Data Ingestion ✅
+## Corpus
 
-**Goal:** Turn a raw policy PDF into a machine-readable, page-indexed corpus.
+The retrieval corpus is built from **7 Cardiff University source documents**:
 
-### What was done
+| Document | Chunks |
+|----------|--------|
+| Academic Regulations Handbook 2025-26 | 293 |
+| Assessment Calendar (xlsx) | 229 |
+| COMSC School Handbook 2025-26 | 113 |
+| Extenuating Circumstances Procedure | 33 |
+| Academic Misconduct Procedure | 27 |
+| Academic Integrity Policy | 15 |
+| Late Submission Policy | 6 |
+| **Total** | **716** |
 
-The first phase of the pipeline handles loading the academic regulations PDF and extracting its text content in a structured, reproducible format. Each page is extracted individually and stored with its page number, raw text content, and metadata. The output is a clean JSON file that feeds directly into Phase 2 cleaning.
+---
 
-### Output
+## Gold QA Dataset
 
-`data/handbook_pages.json` — a list of page objects with the following schema:
+145 manually written question-answer pairs across 5 thematic clusters:
 
-```json
-[
-  {
-    "page_number": 1,
-    "text": "...",
-    "char_count": 842,
-    "word_count": 134
-  },
-  ...
-]
-```
+| Cluster | Count |
+|---------|-------|
+| Late Submission | 30 |
+| Extenuating Circumstances | 30 |
+| Academic Integrity / Misconduct | 30 |
+| General Academic Regulations | 30 |
+| Assessment Calendar | 25 |
 
-### How to run
+Each pair is tagged with source document, question type (factual / procedural / eligibility / comparative), and difficulty level. Questions use natural student language rather than verbatim policy text.
 
-```bash
-# Install dependencies
-pip install -r requirements.txt
+---
 
-# Run ingestion
-python src/ingestion/extract_pages.py --input data/raw/handbook.pdf --output data/handbook_pages.json
-```
+## Evaluation Strategy
 
-### Dependencies
+**Retrieval (IR metrics):** Recall@k (k=1,3,5,10), MRR, nDCG — measured against manually constructed relevance judgments (qrels).
 
-- `PyMuPDF` (fitz) — PDF parsing
-- `pdfplumber` — fallback extraction and table detection
-- `tqdm` — progress tracking
+**Generation (RAGAS):** Faithfulness, answer relevancy, context precision, context recall — measuring whether the generated answer is actually grounded in the retrieved passages.
+
+**Qualitative:** Manual error analysis of retrieval failures and hallucination patterns across strategies.
+
+---
+
+## Methodology Highlights
+
+- **No model training** — the project uses only inference with pre-trained models; this is a retrieval comparison study, not a fine-tuning study
+- **Generalised preprocessing** — frequency-based header detection, signal-based TOC filtering, and Unicode normalisation that generalise beyond these specific documents
+- **Controlled comparison** — all three retrieval methods run against the same chunks, same questions, same evaluation metrics, with only the retrieval strategy varying
+- **LlamaIndex deferred to Phase 5** — Phases 1–4 are fully local and inspectable for research methodology transparency
 
 ---
 
@@ -138,26 +135,34 @@ python src/ingestion/extract_pages.py --input data/raw/handbook.pdf --output dat
 regimind-ai/
 │
 ├── data/
-│   ├── raw/                    # Original source PDFs (not committed)
-│   ├── handbook_pages.json     # Phase 1 output
-│   ├── handbook_sections.jsonl # Phase 2 output (planned)
-│   └── gold_questions.json     # Phase 4 output (planned)
+│   ├── raw/                        # Original source PDFs (not committed)
+│   ├── processed/
+│   │   ├── all_records.json        # Phase 1: raw extracted records
+│   │   ├── filter_log.json         # Phase 2: dropped pages + reasons
+│   │   ├── cleaned_pages.json      # Phase 2: clean page-level text
+│   │   └── chunks.json             # Phase 2: final retrieval corpus
+│   └── qa/
+│       ├── RegiMindAI_Gold_QA_145.xlsx  # Phase 3: gold dataset
+│       ├── qa_pairs.json           # Phase 4a: QA pairs in JSON
+│       └── qrels.json              # Phase 4a: relevance judgments
 │
 ├── src/
-│   ├── ingestion/              # Phase 1: PDF → JSON
-│   ├── preprocessing/          # Phase 2: Cleaning & structuring
-│   ├── retrieval/              # Phases 5–8: BM25, bi-encoder, reranker
-│   ├── query_understanding/    # Phase 9: Intent, rewriting, extraction
-│   ├── generation/             # Phase 10: RAG pipeline
-│   ├── evaluation/             # Phase 12: Metrics & error analysis
-│   └── api/                    # Phase 13: FastAPI backend
+│   ├── ingestion/
+│   │   ├── extract_pdf_to_text.py  # PDF extraction with PyMuPDF
+│   │   ├── extract_xlsx_to_text.py # Assessment Calendar extraction
+│   │   └── ingestion.py            # Orchestrator → all_records.json
+│   ├── preprocessing/
+│   │   ├── filter_and_clean.py     # Noise filtering & normalisation
+│   │   ├── chunker.py              # Section-aware chunking
+│   │   └── preprocess.py           # Orchestrator → chunks.json
+│   ├── retrieval/                  # Phase 4: BM25, dense, hybrid
+│   ├── evaluation/                 # Phase 4–5: IR metrics, RAGAS
+│   └── generation/                 # Phase 5: RAG pipeline
 │
 ├── notebooks/
-│   ├── phase3_eda.ipynb        # Corpus EDA (planned)
-│   └── phase12_eval.ipynb      # Evaluation analysis (planned)
+│   └── RegiMindAI_Pipeline.ipynb   # Full pipeline notebook (Colab)
 │
 ├── requirements.txt
-├── .env.example
 └── README.md
 ```
 
@@ -166,20 +171,30 @@ regimind-ai/
 ## Setup
 
 ```bash
-# Clone the repo
 git clone https://github.com/yourusername/regimind-ai.git
 cd regimind-ai
 
-# Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 
-# Install dependencies
 pip install -r requirements.txt
-
-# Copy environment template
-cp .env.example .env
 ```
+
+---
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|-----------|
+| PDF Extraction | PyMuPDF (fitz) |
+| Data Processing | pandas |
+| Sparse Retrieval | rank_bm25 |
+| Dense Retrieval | sentence-transformers, FAISS |
+| Hybrid Fusion | Reciprocal Rank Fusion |
+| RAG Framework | LlamaIndex |
+| LLM | TBD |
+| Evaluation | RAGAS, custom IR metrics |
+| Notebook | Google Colab |
 
 ---
 
@@ -189,44 +204,11 @@ This project intentionally does not:
 
 - Provide official academic advice or legally binding interpretations
 - Replace direct communication with your academic institution
-- Guarantee accuracy for regulations that change over time
+- Handle real-time policy updates (a fixed document snapshot is used)
+- Fine-tune retrieval models (comparison uses pre-trained models only)
 
 ---
 
-## Evaluation (Planned)
+## Licence
 
-Once the full pipeline is built, the system will be evaluated across multiple dimensions:
-
-**Retrieval** — Recall@5, Recall@10, nDCG, MRR
-
-**Reranking** — Precision@1, NDCG@5
-
-**QA Accuracy** — Exact match, F1 on gold QA dataset
-
-**Faithfulness** — % of answers fully supported by retrieved context
-
-**Calibration** — Confidence score correlation with correctness
-
----
-
-## Tech Stack (Planned)
-
-| Component | Technology |
-|-----------|-----------|
-| PDF Ingestion | PyMuPDF, pdfplumber |
-| Embeddings | sentence-transformers, HuggingFace |
-| Vector Index | FAISS |
-| BM25 Baseline | rank_bm25 |
-| LLM (Generation) | OpenAI API / local model |
-| Fine-tuning | HuggingFace Trainer, LoRA |
-| Backend API | FastAPI |
-| Frontend | Next.js |
-| Deployment | TBD |
-
----
-
-## Contributing
-
-This is a personal portfolio project. Feedback and suggestions are welcome via issues.
-
----
+This is an academic research project. Source documents remain the property of Cardiff University.
