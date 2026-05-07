@@ -1,0 +1,1307 @@
+[
+  {
+    "question_id": "q001",
+    "question": "What happens if I submit my coursework up to 24 hours late without extenuating circumstances?",
+    "answer": "The mark for the assessment will be capped at the minimum pass mark at 50%",
+    "source": "Academic Regulations Handbook 2025-26; COMSC School Handbook",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q002",
+    "question": "What mark will I receive if I submit coursework more than 24 hours after the deadline without extenuating circumstances?",
+    "answer": "A mark of 0 will be given for the assessment.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q003",
+    "question": "Is the late submission penalty different for undergraduate and postgraduate taught students?",
+    "answer": "No, the same late submission policy applies to all taught programmes. Coursework submitted within 24 hours is capped at the minimum pass mark; after 24 hours, a mark of 0 is given.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q004",
+    "question": "What is the minimum pass mark for undergraduate modules at Cardiff University?",
+    "answer": "The pass mark is 40% for undergraduate modules.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q005",
+    "question": "What is the minimum pass mark for postgraduate modules at Cardiff University?",
+    "answer": "The pass mark is 50% for postgraduate modules.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q006",
+    "question": "If I submit my coursework 20 hours late as a postgraduate student with no extenuating circumstances, what mark can I get?",
+    "answer": "Since the submission is within 24 hours of the deadline and the pass mark for postgraduate modules is 50%, the mark would be capped at 50%.",
+    "source": "Academic Regulations Handbook 2025-26; COMSC School Handbook",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q007",
+    "question": "Can I avoid late submission penalties by declaring extenuating circumstances?",
+    "answer": "Yes. If you have extenuating circumstances, you should submit a declaration before the assessment deadline. If approved, the late submission penalty will not apply and an academic remedy such as an extension or deferral may be granted.You can request (and the School can grant) a 1-week extenuating circumstances extension (2 weeks for part-time students) for coursework if you declare before the original deadline.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q008",
+    "question": "Where can I find information about the late submission policy for COMSC students?",
+    "answer": "Late submissions are treated in accordance with the University policy. Information is available on the University intranet and referenced in Section 14.3.2 of the COMSC School Handbook.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q009",
+    "question": "Does failing an assessed component automatically mean I fail the whole module?",
+    "answer": "No. Failing a module's assessed component does not necessarily mean you fail the whole module as the module mark is calculated from all assessed components.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q010",
+    "question": "How should I submit my coursework at COMSC?",
+    "answer": "Coursework should be submitted electronically via Learning Central as specified in the coursework instructions.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "procedural",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q011",
+    "question": "What should I do if I cannot submit coursework on Learning Central due to technical difficulties?",
+    "answer": "You should email your submission to the module leader and comsc-submissions@cardiff.ac.uk, including the module code in the subject line. If the technical issue relates to Cardiff University systems, you should also report it to University IT Support.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q012",
+    "question": "What are the two ways I can fail a module's assessed component?",
+    "answer": "You can fail by obtaining a mark below the pass mark (40% for undergraduate, 50% for postgraduate), or by submitting more than 24 hours late or not submitting at all.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q013",
+    "question": "How long does the school aim to return assessment marks after the submission deadline?",
+    "answer": "The school aims to return all assessment marks within 20 working days of the submission deadline.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q014",
+    "question": "What happens if the 20 working day feedback deadline cannot be met?",
+    "answer": "If the timeframe cannot be met, the school will inform students as soon as possible and communicate when feedback can be expected.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q015",
+    "question": "When are coursework submission dates made available to students?",
+    "answer": "Information on when coursework will be set and the associated submission dates will be made available from the start of the semester on Learning Central.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q016",
+    "question": "What is the Late Submission Policy for research degree theses?",
+    "answer": "Research students are expected to submit their thesis within the regulatory timescale. If they do not submit by the deadline and are not withdrawn, they may be permitted a Late Submission up to 12 months from the deadline at the discretion of the Head of School, subject to a Late Submission fee.",
+    "source": "Late Submission Policy (Research Degrees)",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q017",
+    "question": "Can a research student submit their thesis more than 12 months after the deadline?",
+    "answer": "Requests for submission more than 12 months after the deadline will be considered in accordance with the Procedure for the Re-Registration of Former Research Degree Students for Examination.",
+    "source": "Late Submission Policy (Research Degrees)",
+    "question_type": "procedural",
+    "difficulty": "hard",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q018",
+    "question": "What factors are considered when deciding whether to accept a late thesis submission?",
+    "answer": "The Head of School considers the viability of the thesis, the currency of the work it represents, and the availability of staff to assess the thesis and oversee any required corrections after an examination.",
+    "source": "Late Submission Policy (Research Degrees)",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q019",
+    "question": "What access does a research student retain if their enrolled status is removed due to late submission?",
+    "answer": "They will retain a University email account and log-in, and have access to the Library's e-books and e-journals, but will not be entitled to renew their student ID card or have access to supervision, University buildings, or events.",
+    "source": "Late Submission Policy (Research Degrees)",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q020",
+    "question": "Is it a student's right to have a late thesis submission accepted?",
+    "answer": "No. The decision whether to accept a thesis as a Late Submission is at the discretion of the Head of School; it is not the student's right to have it accepted.",
+    "source": "Late Submission Policy (Research Degrees)",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q021",
+    "question": "Are all marks final as soon as I receive them?",
+    "answer": "No. All marks are provisional until they have been confirmed by an Examining Board, which usually takes place at the end of the teaching year. The Board may decide to adjust marks for a module.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q022",
+    "question": "What happens during the resit period for COMSC students?",
+    "answer": "If the Examining Board determines you have failed no more than 60 credits in the academic year, you will be expected to resit modules you have not passed. Resit coursework usually takes place in July and early August with exams in the August resit period.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q023",
+    "question": "What happens if I fail more than 60 credits during the academic year?",
+    "answer": "You will not be eligible for resits in the August resit period. Depending on your results, you may be offered to repeat the year, or in some cases, will be asked to withdraw from your programme.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "procedural",
+    "difficulty": "hard",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q024",
+    "question": "How many attempts do I have to pass a module at undergraduate level?",
+    "answer": "At undergraduate level, you have a maximum of three attempts to pass a module.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q025",
+    "question": "How many attempts do I have to pass a module at postgraduate level?",
+    "answer": "At postgraduate level, you have two attempts at a module.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q026",
+    "question": "What type of reassessment will I need to complete if I fail?",
+    "answer": "The resit component will be the same type as the original assessment (e.g., exam, coursework, etc.). You may be required to resit more than one component if there are multiple failed components for a module.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q027",
+    "question": "How many credits must a PGT student attain to progress from the taught part to the dissertation phase?",
+    "answer": "To progress from the taught part of the programme to the dissertation phase, you will need to attain 120 credits on the taught part of your programme.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q028",
+    "question": "Can I appeal against my assessment results?",
+    "answer": "Yes. You can appeal against your results within 28 days of receiving your transcript via email.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "procedural",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q029",
+    "question": "What is the role of the external examiner?",
+    "answer": "The external examiner ensures that quality and standards are upheld. You can access external examiner reports from the last 5 years using your university login details.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q030",
+    "question": "If I submit my undergraduate coursework 23 hours late and there are no extenuating circumstances, what is the maximum mark I can receive?",
+    "answer": "The maximum mark you can receive is 40%, as the mark is capped at the minimum pass mark for undergraduate modules.",
+    "source": "Academic Regulations Handbook 2025-26; COMSC School Handbook",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Late Submission"
+  },
+  {
+    "question_id": "q031",
+    "question": "What is the definition of extenuating circumstances at Cardiff University?",
+    "answer": "An extenuating circumstance must be: severe and exceptional; and unforeseen or unavoidable; and close in time to an assessment, or where you can demonstrate the circumstances continued to have an impact on you at the time of the assessment.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "definitional",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q032",
+    "question": "What are some examples of extenuating circumstances?",
+    "answer": "Examples include: serious short-term illness or an accident; bereavement (death of a close relative, friend, partner); significant adverse personal or family circumstances including severe financial issues; being a victim of a serious crime; exceptional technical issues during a time-limited assessment; and evidence of a disability or long-term health condition which has worsened.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q033",
+    "question": "Is poor time management considered an extenuating circumstance?",
+    "answer": "No. Poor time management, such as not giving yourself sufficient time to complete the assessment by the deadline, is not considered an extenuating circumstance.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q034",
+    "question": "Is assessment-related stress considered an extenuating circumstance?",
+    "answer": "No. Assessment-related stress which is not diagnosed as an illness is not considered an extenuating circumstance.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q035",
+    "question": "Are planned religious festivals or holidays considered extenuating circumstances?",
+    "answer": "No. Where the event or circumstances were foreseeable or able to be anticipated, such as planned religious festivals, holidays, weddings, jury duty, or family events, they are not considered extenuating circumstances.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q036",
+    "question": "Do I need to provide evidence when declaring extenuating circumstances before an assessment deadline?",
+    "answer": "No. When declaring extenuating circumstances before the assessment deadline, you are not required to provide evidence. You will be asked to confirm that the circumstances described are accurate and explain how they are impacting you.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q037",
+    "question": "Do I need evidence if I declare extenuating circumstances after an assessment deadline?",
+    "answer": "Yes. If you are declaring extenuating circumstances after the assessment deadline (Situations 5, 6, and 7 in the Procedure), you must provide supporting evidence.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q038",
+    "question": "What academic remedy can I request if I cannot submit coursework by the deadline due to extenuating circumstances?",
+    "answer": "You can request a 1-week extenuating circumstances extension (2 weeks for part-time students), or to defer the coursework to the next assessment period.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q039",
+    "question": "What extension is available for a postgraduate taught Masters dissertation under extenuating circumstances?",
+    "answer": "You can request a 4-week extenuating circumstances extension, or to defer the dissertation to the next assessment period.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q040",
+    "question": "What remedy is available if I cannot attend an examination due to extenuating circumstances?",
+    "answer": "You can request to defer the assessment to the next assessment period. For Class Tests, the School may offer a later assessment date/time within the same assessment schedule depending on resource availability.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q041",
+    "question": "What happens if I declare extenuating circumstances before an exam but then decide to sit it?",
+    "answer": "The decision to attempt the exam will override your extenuating circumstances declaration and the mark for your attempt will stand.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "hard",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q042",
+    "question": "What does 'close in time' mean in the context of extenuating circumstances?",
+    "answer": "Close in time typically means within 14 days prior to an assessment deadline or an exam or time-limited assessment, or during an exam or time-limited assessment.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "definitional",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q043",
+    "question": "Who decides on my extenuating circumstances declaration?",
+    "answer": "Declarations are considered by the Extenuating Circumstances Group, or a nominee of the Group who has been trained in the Procedure.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q044",
+    "question": "Who are the members of the Extenuating Circumstances Group?",
+    "answer": "The Group consists of: a member (not the Chair) of the Examining Board who acts as Chair; up to 5 academic staff members; a Disability/Wellbeing representative; a member of the School's professional services staff; and a representative from another School for joint honours students.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q045",
+    "question": "What happens if I declare extenuating circumstances more than three times in an academic year?",
+    "answer": "Your School may contact you to better understand your circumstances. Multiple declarations may indicate that you would benefit from support from the University's Student Life team.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q046",
+    "question": "Is the extenuating circumstances process confidential?",
+    "answer": "Yes. All information submitted under the Extenuating Circumstances Procedure is confidential and will not be shared with markers or Personal Tutors. It can only be shared in limited circumstances such as with Student Cases for academic appeals, the Student Support Intervention team if there are welfare concerns, or as required by law.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q047",
+    "question": "What is a deferral in the context of extenuating circumstances?",
+    "answer": "A deferral means moving the assessment to the next available opportunity. This may be in the same assessment schedule or a later assessment period. Deferral is not an academic failure.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "definitional",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q048",
+    "question": "Can the Examining Board discount module marks affected by extenuating circumstances?",
+    "answer": "Yes. Final Examining Boards may discount module marks affected by extenuating circumstances relating to a protected characteristic under the Equality Act 2010, a long-term health condition, or caring responsibilities when calculating the final mark for degree classification.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q049",
+    "question": "What types of evidence are acceptable for extenuating circumstances declarations?",
+    "answer": "Types of evidence include: a GP/medical letter; a statement from a support service; a letter from a relevant third party (e.g. social worker); an invigilator's report; and timed screen captures of technical difficulties.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q050",
+    "question": "Can I use the extenuating circumstances procedure to report absence from a teaching session?",
+    "answer": "No. You cannot use the Extenuating Circumstances Procedure to tell the University that you are going to be absent from a teaching session.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q051",
+    "question": "What should I do if my circumstances prevent me from engaging with studies for more than two weeks?",
+    "answer": "You may want to apply to take a break from your studies using the Interruption of Study Procedure.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q052",
+    "question": "How quickly will I receive a decision on my extenuating circumstances declaration?",
+    "answer": "Your School will communicate a decision as soon as possible. When declaring in advance of an assessment, this will usually be within seven days of the declaration being made.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q053",
+    "question": "What happens if I submit my EC declaration fewer than seven days before the assessment deadline?",
+    "answer": "You may not receive the outcome on your declaration before the assessment deadline. In this case, you will need to decide whether you are well enough to sit or submit the work.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "hard",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q054",
+    "question": "Can I reapply for extenuating circumstances for the same assessment if my first declaration was rejected?",
+    "answer": "You cannot reapply for the same assessment unless your circumstances have changed or worsened. If you re-declare, you may be asked to provide evidence.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "hard",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q055",
+    "question": "How do I declare extenuating circumstances at COMSC?",
+    "answer": "You should use the online Extenuating Circumstances Declaration Tool. You can also watch a demonstration of this service online. For general queries about ECs, you can email COMSC-ExtenCircs@cardiff.ac.uk, but you cannot submit ECs to that mailbox.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "procedural",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q056",
+    "question": "What is the criteria for extenuating circumstances to be considered at Cardiff University?",
+    "answer": "Your situation must meet all of these criteria: be severe and exceptional; be unforeseen or unavoidable; and be close in time to the assessment, or where you can demonstrate the circumstances continued to have an impact on your ability to complete assessments.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q057",
+    "question": "What should I do if I am unwell and have an upcoming assessment?",
+    "answer": "You can use the extenuating circumstances process. You should submit a declaration of extenuating circumstances to your school.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "procedural",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q058",
+    "question": "What is an Interruption of Study?",
+    "answer": "An Interruption of Study is an authorised absence from your studies for a period of between 14 days to 12 months, applied for under the Interruption of Study Procedure.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "definitional",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q059",
+    "question": "What happens if the University suspects the evidence I provided for extenuating circumstances is not genuine?",
+    "answer": "The University may take steps to verify the evidence and, if it is found not to be genuine, the matter may be considered under the Student Conduct Procedure.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "procedural",
+    "difficulty": "hard",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q060",
+    "question": "Where can I get independent advice on extenuating circumstances?",
+    "answer": "You can access independent, confidential and free advice from Student Advice in the Students' Union. Advisors are independent and impartial and can support you with your circumstances and advise you on how to declare.",
+    "source": "Extenuating Circumstances Procedure",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Extenuating Circumstances"
+  },
+  {
+    "question_id": "q061",
+    "question": "What is plagiarism as defined by Cardiff University?",
+    "answer": "Plagiarism is the use of someone else's words, ideas, intellectual property, or work, without proper acknowledgment by use of correct referencing conventions, or necessary permissions. Words or ideas may include: text (including paraphrasing), diagrams, formulae, software.",
+    "source": "Academic Integrity Policy",
+    "question_type": "definitional",
+    "difficulty": "easy",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q062",
+    "question": "What is self-plagiarism?",
+    "answer": "Self-plagiarism is when work is reproduced or re-presented for assessment when it has already been part of another assessment. This includes work on your current programme of study or a previous programme at the University or at another educational institution.",
+    "source": "Academic Integrity Policy",
+    "question_type": "definitional",
+    "difficulty": "easy",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q063",
+    "question": "What is collusion as defined in the Academic Integrity Policy?",
+    "answer": "Collusion is presenting work as your own when it has been produced by, or with, someone else, or allowing work to be submitted in someone else's name.",
+    "source": "Academic Integrity Policy",
+    "question_type": "definitional",
+    "difficulty": "easy",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q064",
+    "question": "What counts as examination misconduct?",
+    "answer": "Examination misconduct is any action in an examination venue against examination rules or which may lead to an unfair advantage. This includes bringing unauthorised materials, copying another student's responses, communicating with anyone other than the invigilator, impersonating another student, or allowing yourself to be impersonated.",
+    "source": "Academic Integrity Policy",
+    "question_type": "definitional",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q065",
+    "question": "What is contract cheating according to Cardiff University?",
+    "answer": "The use of an external writing service, such as essay banks, essay mills, ghost writers, or any external essay/thesis writing service, in place of or in addition to your own writing, constitutes academic misconduct.",
+    "source": "Academic Integrity Policy",
+    "question_type": "definitional",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q066",
+    "question": "What are the core values Cardiff University expects students to uphold in academic work?",
+    "answer": "The University expects students to uphold integrity, honesty, openness, rigour, accountability, care, and respect in all aspects of study and research.",
+    "source": "Academic Integrity Policy",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q067",
+    "question": "Can I be penalised for academic misconduct even if I did not intend to cheat?",
+    "answer": "Yes. Academic misconduct can take place irrespective of whether your actions or inactions were intended to gain an unfair advantage or not.",
+    "source": "Academic Integrity Policy",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q068",
+    "question": "Who is responsible for ensuring students understand academic integrity?",
+    "answer": "The Head of School is responsible for ensuring that all students are advised of good and poor academic practice, and of the consequences if a student is found to have sought an unfair advantage.",
+    "source": "Academic Integrity Policy",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q069",
+    "question": "What happens if I am suspected of academic misconduct in coursework?",
+    "answer": "A report with evidence will be submitted to the School's Academic Misconduct Co-ordinator, who will initiate an investigation if appropriate. For Turnitin submissions, an originality report is produced and academic staff will use both software and their own academic judgement to assess the case.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q070",
+    "question": "How much notice will I receive before an academic misconduct investigation meeting?",
+    "answer": "You will be given 14 days' notice of investigation meetings and will be provided with a copy of the evidence or reports at least 7 days in advance.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q071",
+    "question": "Can I bring someone to support me at an academic misconduct investigation meeting?",
+    "answer": "Yes. You can ask a member of the Students' Union Student Advice or a professional union representative to attend the meeting with you for support, but you will need to arrange representation yourself.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "procedural",
+    "difficulty": "easy",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q072",
+    "question": "What happens if I do not respond to the academic misconduct meeting invitation?",
+    "answer": "If you do not respond or provide a written response, the concern will be considered without your comments being available.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q073",
+    "question": "What sanctions can the Chair of the Examining Board impose for academic misconduct?",
+    "answer": "The Chair can: dismiss the concern; require study skills sessions; award a mark of 0 for the assessment; award a mark of 0 for the module; refer to the University Academic Integrity Panel; refer to other University procedures; or impose a formal warning.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q074",
+    "question": "When can a case be referred to the University Academic Integrity Panel?",
+    "answer": "The Chair of the Examining Board may refer the case to the Panel where: the sanctions available to them are not sufficient; or there are exceptional and serious personal circumstances reported with evidence and the Chair has decided the Panel should decide on the remedy.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q075",
+    "question": "Who sits on the University Academic Integrity Panel?",
+    "answer": "The panel is made up of 3 members of academic staff trained in the procedure. An academic member of staff acts as Chair and all panel members are from outside the student's School.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q076",
+    "question": "What is the most severe sanction the Academic Integrity Panel can recommend?",
+    "answer": "The Panel can recommend to the Vice-Chancellor that the student is excluded from the programme, from University study, and from all future examinations for a fixed number of years or permanently. They can also recommend to Awards and Progress Committee and Senate that an awarded degree be rescinded.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q077",
+    "question": "Will a note of academic misconduct be placed on my record?",
+    "answer": "Yes. If a penalty is applied, a note will be placed on your academic record for the period of your registration, so that it may be considered in any possible future suspected incidents. Future incidents will be considered more serious.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q078",
+    "question": "Can I request a review of an academic misconduct decision?",
+    "answer": "Yes. You can request a review under the University Review Procedure. The request must be made on one or more of the grounds set out in the Procedure and must be received within 14 days of being sent the outcome.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q079",
+    "question": "What happens if I am caught cheating during an examination?",
+    "answer": "You will be allowed to continue with the examination and any other planned examinations, but the invigilator will mark the answer paper with the time of the alleged misconduct. The invigilator may confiscate and/or photograph evidence. The report will be submitted to the Academic Misconduct Co-ordinator.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q080",
+    "question": "What is the standard of proof used in academic misconduct decisions?",
+    "answer": "The Chair of the Examining Board's decision is made on the balance of probabilities.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q081",
+    "question": "What does fabrication mean in the context of research misconduct?",
+    "answer": "Fabrication includes the creation of false data or other aspects of research, including documentation and participant consent.",
+    "source": "Academic Integrity Policy",
+    "question_type": "definitional",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q082",
+    "question": "What does falsification mean in the context of research misconduct?",
+    "answer": "Falsification includes the inappropriate manipulation and/or selection of data, imagery, research processes, materials and/or consents. This includes changing or omitting data so the research is not accurately represented.",
+    "source": "Academic Integrity Policy",
+    "question_type": "definitional",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q083",
+    "question": "What referencing format does Cardiff University recommend?",
+    "answer": "Cardiff University recommends that students use the Harvard referencing format when writing coursework for all modules.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q084",
+    "question": "What tools does the University use to detect academic misconduct?",
+    "answer": "The University uses a range of different tools and techniques to identify academic misconduct, including Turnitin for originality reports. Academic staff also use their own academic judgement and invigilators are trained to identify misconduct in examinations.",
+    "source": "COMSC School Handbook 2025-26; Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q085",
+    "question": "What happens if I help another student commit academic misconduct?",
+    "answer": "Students who assist others to commit academic misconduct, whether or not for payment, will be subject to the same sanctions as those who submit the assessment. This includes giving another student the opportunity to copy work, providing copies of assessments, or providing bespoke work.",
+    "source": "Academic Integrity Policy",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q086",
+    "question": "Where can I find guidance on academic integrity at Cardiff University?",
+    "answer": "You can find guidance on artificial intelligence, academic integrity, contract cheating, plagiarism, collusion, and academic misconduct on the student intranet and links to complete an academic integrity module on Learning Central. Your subject librarian can also help with referencing queries.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q087",
+    "question": "How quickly will the Academic Integrity Panel normally meet after a referral?",
+    "answer": "The Panel will normally meet within 42 days of the referral being made.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q088",
+    "question": "Can the Academic Integrity Panel handle cases involving two students at once?",
+    "answer": "Yes. If the case involves 2 students, they may be heard at the same time and by the same panel, unless the students request their cases to be heard separately.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q089",
+    "question": "What happens if academic misconduct is discovered after a degree has been awarded?",
+    "answer": "The relevant Head of School will conduct an investigation and submit a report and recommendation to the Awards and Progress Committee.",
+    "source": "Academic Misconduct Procedure",
+    "question_type": "procedural",
+    "difficulty": "hard",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q090",
+    "question": "Are honest errors in research interpretation considered misconduct?",
+    "answer": "No. Honest errors and differences in interpretations do not constitute research misconduct. Similarly, academically poor research on its own does not constitute misconduct.",
+    "source": "Academic Integrity Policy",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Academic Integrity/Misconduct"
+  },
+  {
+    "question_id": "q091",
+    "question": "How is the overall degree result calculated for MSc programmes at COMSC?",
+    "answer": "For MSc programmes, the taught stage contributes 50% and the dissertation stage contributes 50% of the overall degree result.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q092",
+    "question": "How is the overall degree result calculated for MSc programmes with a placement at COMSC?",
+    "answer": "For MSc programmes with Placement or Professional Placement Year, the taught modules contribute 45%, the placement/professional placement year contributes 10%, and the dissertation stage contributes 45%.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q093",
+    "question": "What percentage does Year 2 contribute to the BSc Computer Science degree at COMSC?",
+    "answer": "Year 2 contributes 30% to the BSc Computer Science degree.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q094",
+    "question": "What percentage does Year 3 contribute to the BSc Computer Science degree at COMSC?",
+    "answer": "Year 3 contributes 70% to the BSc Computer Science degree.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q095",
+    "question": "Does Year 1 count towards the undergraduate degree classification at COMSC?",
+    "answer": "No. For undergraduate degrees, the marks for the first year are excluded from the calculation.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q096",
+    "question": "What final mark is needed for a Distinction in a postgraduate taught degree?",
+    "answer": "A final mark of 70% or above is needed for a Distinction.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q097",
+    "question": "What final mark is needed for a Merit in a postgraduate taught degree?",
+    "answer": "A final mark of 60% to less than 70% is needed for a Merit.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q098",
+    "question": "Is the CM2305 Group Project module a required module for progression?",
+    "answer": "Yes. CM2305 'Group Project' is a Required module for all second-year diets in which it appears. Students cannot progress to their final year (or placement/year of study abroad) without passing this module.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q099",
+    "question": "What is condonement in the academic regulations?",
+    "answer": "Condonement is when an Examining Board awards a student credit in failed module(s) to permit progression or an award. For undergraduate modules (levels 3-6), the mark must be 30%-39% with a year result of at least 45%. For postgraduate modules (level 7-8), the mark must be 40%-49% with a year result of at least 55%.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "definitional",
+    "difficulty": "hard",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q100",
+    "question": "Can condonement be applied to required modules?",
+    "answer": "No. Condonement will not operate in Required Modules.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q101",
+    "question": "How many credits can be condoned in a single stage for a Master's programme?",
+    "answer": "A maximum of 30 credits can be condoned in 1 stage, and a maximum of 30 credits can be condoned across the whole programme for Master's and Postgraduate Diploma programmes.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q102",
+    "question": "What is the time limit for completing a programme at Cardiff University?",
+    "answer": "The time-limit for a student to complete their Programme is no more than 2 years beyond the approved duration of the Programme.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q103",
+    "question": "What happens if an undergraduate student fails one or more modules on 3 occasions?",
+    "answer": "The student will be excluded from the programme.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q104",
+    "question": "How many credits are required for a Master's Degree at Cardiff University?",
+    "answer": "A Master's Degree requires a total of 180 credits, with at least 150 credits at level 7 or above.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q105",
+    "question": "What is the secondary rule for postgraduate degree classification?",
+    "answer": "Students who achieve a final mark of 68% or 69% will be awarded a Distinction if they have achieved a module mark of 70% or more in modules at level 7 to the value of at least 50% of credits. Students with 58% or 59% will be awarded a Merit if they have 60% or more in at least 50% of level 7 credits.",
+    "source": "Academic Regulations Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "hard",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q106",
+    "question": "Where is the School of Computer Science and Informatics located?",
+    "answer": "The school is in the Abacws building. Students can contact the Facilities team in Room 0.20 or email Abacws@cardiff.ac.uk.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q107",
+    "question": "Can postgraduate students get 24-hour access to the Abacws building?",
+    "answer": "Yes. Postgraduate students can request 24-hour access to the Abacws building by contacting the Facilities and Safety Team at Abacws@cardiff.ac.uk to have it added to their student ID card. This is only available to postgraduate students.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q108",
+    "question": "How often must Student ID cards be updated?",
+    "answer": "Student ID cards must be updated every 30 days. Update points are located outside Room 0.19 (Ground Floor, Abacws) and on the accessibility door to Room 3.36 (Third Floor).",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q109",
+    "question": "What is Learning Central?",
+    "answer": "Learning Central is the University's Virtual Learning Environment where the majority of learning and teaching material is found. It is used to deliver course content, activities, and assessment.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "definitional",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q110",
+    "question": "How often should students log into Learning Central?",
+    "answer": "Students are expected to log into Learning Central at least once a week.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q111",
+    "question": "What is the difference between formative and summative assessment?",
+    "answer": "Formative assessments help you learn through feedback and do not count towards your overall mark. Summative assessments indicate how well you have met the learning outcomes and do count towards your overall mark.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "definitional",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q112",
+    "question": "When is feedback provided for summative assessments?",
+    "answer": "Feedback is provided for all work no later than 20 working days after the assessment deadline.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q113",
+    "question": "How can I contact the COMSC Student Services Team?",
+    "answer": "You can email COMSC-office@cardiff.ac.uk, telephone +44 (0) 29 2087 4812, or visit the nearest Student Hub. Staff are available between 8:30am and 4:30pm during the working week.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q114",
+    "question": "Who is the school's disability contact at COMSC?",
+    "answer": "The school's disability contact is Barry Hogan.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q115",
+    "question": "How do I change my personal tutor at COMSC?",
+    "answer": "You should contact COMSCStudentvoiceandsupport@cardiff.ac.uk. You will not, at the first request, be required to state your reason.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "procedural",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q116",
+    "question": "Within how many days can I request to change modules?",
+    "answer": "You can only request to change modules within 14 days of the start of teaching, subject to programme-specific regulations and school approval.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q117",
+    "question": "How long do I have to submit a complaint at Cardiff University?",
+    "answer": "Complaints must be raised within 28 days of the concern arising, or the latest occurrence of the incident if it is ongoing.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q118",
+    "question": "What happens if I am absent for more than 14 days?",
+    "answer": "You will need to apply for an interruption of study or extenuating circumstances, unless you have submitted a programme transfer, or you may be requested to withdraw.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "procedural",
+    "difficulty": "medium",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q119",
+    "question": "What support is available if I want to report harassment or bullying?",
+    "answer": "Report and Support is a confidential and easy-to-use online tool to report incidents of assault, bullying, discrimination, harassment, hate crime, sexual misconduct, and serious mental health concerns. All reports are handled by trauma-informed specialist practitioners.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q120",
+    "question": "What is the Student Connect phone number?",
+    "answer": "You can phone Student Connect at +44 (0)29 2251 8888.",
+    "source": "COMSC School Handbook 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "General Academic Regulations"
+  },
+  {
+    "question_id": "q121",
+    "question": "What are the assessments for CMT318 Computational Linguistics?",
+    "answer": "CMT318 has two assessments: a Practical-Based Assessment called 'Computational Linguistics Portfolio' worth 50% with a hand-in date of 13 November 2025, and a Project called 'Group Project' worth 50% with a hand-in date of 8 January 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q122",
+    "question": "What are the assessments for CMT227 Advanced Topics in NLP?",
+    "answer": "CMT227 has two assessments: a Portfolio called 'Advanced Topics in NLP Portfolio' worth 60% with a hand-in date of 7 May 2026, and a Written Assessment called 'Programming Assignment' worth 40% with a hand-in date of 5 March 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q123",
+    "question": "When is the programming assignment for CMT227 due?",
+    "answer": "The Programming Assignment for CMT227 Advanced Topics in NLP is due on 5 March 2026. It is worth 40% of the module mark.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q124",
+    "question": "What assessments does CMT311 Principles of Machine Learning have?",
+    "answer": "CMT311 has two assessments: a Written Assessment called 'Machine Learning Methods' worth 50% due 11 December 2025, and an online exam called 'Theoretical Foundations of Machine Learning' worth 50%.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q125",
+    "question": "How many total modules are covered in the Assessment Calendar?",
+    "answer": "The Assessment Calendar covers 132 distinct modules with a total of 229 assessment entries.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q126",
+    "question": "What types of assessments are used across COMSC modules?",
+    "answer": "The assessment types include Written Assessment (most common), Portfolio, Practical-Based Assessment, Class Test, Project, online exams (both Autumn and Spring semester), Presentation, Report, and Oral/Aural Assessment.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q127",
+    "question": "Which module is assessed entirely by an online exam in the Autumn semester on the topic of Security?",
+    "answer": "CM3110 Security is assessed 100% by an online exam in the Autumn semester.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q128",
+    "question": "What are the assessments for CMT307 Applied Machine Learning?",
+    "answer": "CMT307 has two assessments: a Class Test worth 50% due 13 March 2026, and a Written Assessment called 'Machine Learning Project' worth 50% due 7 May 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q129",
+    "question": "When is the CMT316 Machine Learning Project due?",
+    "answer": "The Machine Learning Project for CMT316 (Applications of Machine Learning: NLP/Computer Vision) is due on 7 May 2026 and is worth 50% of the module.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q130",
+    "question": "What is the assessment structure for CMT120 Fundamentals of Programming?",
+    "answer": "CMT120 has two assessments: a Practical-Based Assessment called 'Programming Challenges' worth 40% due 11 December 2025, and a Project called 'Web Application Development' worth 60% due 8 January 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q131",
+    "question": "Is CMT115 Python for Computation assessed by a single assessment?",
+    "answer": "Yes. CMT115 is assessed 100% by a single Written Assessment called 'Programming Coursework Using Python' due 8 January 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q132",
+    "question": "What are the assessments for CMT202 Distributed and Cloud Computing?",
+    "answer": "CMT202 has two assessments: a Written Assessment called 'Implement a Distributed System' worth 50% due 23 April 2026, and an online exam in the Spring semester called 'Distributed and Cloud Computing' worth 50%.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q133",
+    "question": "What is the assessment for CMT309 Computational Data Science?",
+    "answer": "CMT309 is assessed 100% by a single Practical-Based Assessment called 'Programming and Data Science Portfolio' due 11 December 2025.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q134",
+    "question": "What assessments does CMT122 Machine Learning for NLP have?",
+    "answer": "CMT122 has two assessments: a Written Assessment called 'Individual Assessment: Implementation and Evaluation' worth 50% due 13 November 2025, and a Written Assessment called 'Machine Learning Group Project on an NLP problem' worth 50% due 8 January 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q135",
+    "question": "What are the assessments for CMT206 Human Centric Computing?",
+    "answer": "CMT206 has three assessments: 'Usability and Interface Design' worth 33% due 26 February 2026, 'Evaluation of Interface Design' worth 33% due 19 March 2026, and 'Analysis of Interface Design' worth 34% due 7 May 2026. All are Written Assessments.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q136",
+    "question": "How is CMT226 Cloud and Database Systems Security assessed?",
+    "answer": "CMT226 has two assessments: a Written Assessment called 'Cloud and Database Systems Security Portfolio' worth 70% due 7 May 2026, and a Class Test called 'Computerised Class Knowledge Test' worth 30% due 28 April 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q137",
+    "question": "What is the deadline for the CMT221 Topics, Research and Skills in Computing assessment?",
+    "answer": "The assessment for CMT221 is a single Written Assessment called 'Case Study Evaluation, Literature Review and Project Proposal Practise' worth 100%, due 30 April 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q138",
+    "question": "Which COMSC modules have a Placement Portfolio assessment?",
+    "answer": "CM2500 (Placement) and CMT305 (Placement) both have Portfolio assessments worth 100%. CM2500's portfolio consists of a Final Reflective Report, employer forms and poster, while CMT305's consists of a reflective report and employer forms.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q139",
+    "question": "What is the most common assessment type across all COMSC modules?",
+    "answer": "Written Assessment is the most common type, accounting for 102 out of 229 assessment entries. Portfolio is the second most common with 48 entries.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q140",
+    "question": "When is the feedback date for the CMT318 Computational Linguistics Portfolio?",
+    "answer": "The feedback date for the CMT318 Computational Linguistics Portfolio (due 13 November 2025) is 11 December 2025.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q141",
+    "question": "How is CM2305 Group Project assessed?",
+    "answer": "CM2305 Group Project has three assessments: a Presentation called 'Group Funding Pitch' worth 20% due 17 February 2026, a Presentation called 'Group Sales Pitch' worth 30% due 5 May 2026, and a Written Assessment called 'Individual Assessment' worth 50% due 8 May 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q142",
+    "question": "What assessments does CMT124 Big Data, Machine Learning and AI have?",
+    "answer": "CMT124 has two assessments: a Practical-Based Assessment called 'Programming Exercise' worth 50% due 20 November 2025, and a Project called 'Group Project - Data Handling, Processing And Reporting' worth 50% due 15 January 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q143",
+    "question": "Is CMT215 Automated Reasoning assessed by exam only?",
+    "answer": "Yes. CMT215 Automated Reasoning is assessed 100% by an online exam in the Spring semester.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "easy",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q144",
+    "question": "What is the assessment structure for CMT317 Operating Systems Security?",
+    "answer": "CMT317 has two assessments: a Class Test called 'Practical Assessment on Operating Systems Hardening' worth 60% due 28 April 2026, and an Oral/Aural Assessment called 'Oral Assessment - Job Interview' worth 40% due 21 May 2026.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Assessment Calendar"
+  },
+  {
+    "question_id": "q145",
+    "question": "How many assessment entries are there for postgraduate CMT-coded modules?",
+    "answer": "There are 80 assessment entries for CMT-coded postgraduate modules in the Assessment Calendar.",
+    "source": "Assessment Calendar 2025-26",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "cluster": "Assessment Calendar"
+  }
+]
