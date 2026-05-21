@@ -13,3 +13,19 @@ test.py
 
 # Jupyter
 .ipynb_checkpoints
+
+.env
+
+# secrets
+.env
+utils/.env
+
+# python
+myvenv/
+__pycache__/
+*.pyc
+
+# data + artifacts you don't want in the repo
+*.zip
+submission/
+data/
